@@ -32,7 +32,7 @@ class Counter extends StatelessWidget {
                         context.read<CounterBloc>().add(
                             CounterIncrementClicked());
                       },
-                      child: const Icon(Icons.add),
+                       child: const Icon(Icons.add),
                     );
                   },
                 ))
