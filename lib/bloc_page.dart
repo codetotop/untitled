@@ -16,8 +16,8 @@ class BlocPage extends StatelessWidget {
           appBar: AppBar(
             title: const Text("Bloc"),
           ),
-          body: Column(
-            children: const [
+          body: const Column(
+            children: [
               CounterText(),
               CounterButton()
             ],
